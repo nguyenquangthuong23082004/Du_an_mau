@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: rgb(250, 126, 95);
+    min-height: 100px;
+}
+.header{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.menu{
+    background-color: black;    
+    color: #ccc;
+    border-radius: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 2%;
+}
+.header h1{
+    margin: 20px 5px;
+    font-size: 1.2vw;
+}
+.boxleftmine{
+    float:left;
+    width: 74%;
+}
+.boxrightmine{
+    float: left;
+    width: 24%;
+}
+.boxtitle{
+    color: #333;
+    padding: 10%;
+    background-color: #EEE;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border-left: 1px #ccc solid ;
+    border-right: 1px #ccc solid ;
+    border-bottom: 1px #ccc solid ;
+    border-top: 1px #ccc solid ;
+}
+.boxcontent{
+    border-left: 1px #ccc solid ;
+    border-right: 1px #ccc solid ;
+    border-bottom: 1px #ccc solid ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #ccc solid ;
+    border-right: 1px #ccc solid ;
+    background-color: #EEE;
+}
+.boxfooter{
+    padding: 10%;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+}
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp .imgg{
+    min-height: 250px;
+    text-align: center;
+}
+.imgg img{
+    width: 98%;
+    height: 220px;
+}
+.menu ul{
+    margin: 0;
+    padding: 9px 15px;
+    /* list-style: none; */
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.03vw;
+}
+.formtaikhoan{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formtaikhoan input[type="text"],.formtaikhoan input[type="password"]{
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px #CCC solid;
+    transition: 0.5s linear;
+}
+.formtaikhoan input[type="submit"]:hover{
+    background-color: #ccc;
+}
+.formtaikhoan li a{
+    color: rgb(85, 85, 235);
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: rgb(24, 24, 134);
+    text-decoration: underline;
+}
+.menu_col ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu_col ul li{
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-bottom: 1px #CCC solid;
+
+}
+.menu_col ul li a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 1.1vw;
+}
+.menu_col ul li a:hover{
+    color: #CCC;
+}
+.search_box input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.top10 img{
+    width: 15%;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.headerAdmin{
+    background-color: rgb(238, 238, 238);
+    border: 1px #CCC solid;
+    font-size: 2vw;
+    color: rgb(6, 6, 59);
+    border-radius: 5px;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+/* admin */
+
+
+
